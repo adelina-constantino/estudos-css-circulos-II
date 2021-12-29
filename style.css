@@ -1,0 +1,36 @@
+.base {
+    width: 50vmin;
+    height: 20vmin;
+    top: 80%;
+    left: 25%;
+    position: absolute;
+    background: #8B008B;
+    border-radius: 100% / 40%;
+    bottom: 0;
+}
+
+.base ~ .base{
+    -webkit-mask: radial-gradient(100% 50% at 50% 14%, #0000 50%, #000 0);
+            mask: radial-gradient(100% 50% at 50% 14%, #0000 0);
+}
+
+.circulo-1 {
+    width: 60vmin;
+    height: 60vmin;
+    top: 30%;
+    left: 23%;
+    position: absolute;
+    background: #049af7;
+    border-radius: 50%;
+}
+
+.circulo-2 {
+    width: 30vmin;
+    height: 30vmin;
+    top: 10%;
+    left: 30%;
+    position: absolute;
+    background: #9fddee;
+    border-radius: 50%;
+}
+
